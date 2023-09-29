@@ -20,6 +20,7 @@ namespace MovieList
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
+            //something changed
             if (!app.Environment.IsDevelopment())
             {
                 app.UseExceptionHandler("/Home/Error");
